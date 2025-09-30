@@ -29,12 +29,11 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.3rem 10%;
+    padding: 1.5rem 10%;
     background-color: #0C1B33;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 header .logo{
@@ -42,14 +41,11 @@ header .logo{
     color: white;
     text-decoration: none;
     font-weight: 700;
-    padding-bottom: 0.7rem;
-    
 }
 header nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 header .navbar a{
     font-size: 1rem;
@@ -63,9 +59,11 @@ header .navbar a{
     padding: 6rem;
 }
 .imagen-yo{
+
     width: 400px;
-    height: auto;
     border-radius: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 .img-container{
@@ -149,20 +147,19 @@ h2{
 }
 .imagen-idea{
     width: 400px;
-    height: auto;
     border-radius: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 footer{
-    top: 0;
-    left: 0;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1400px;
     margin: auto;
-    padding: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
     
 }
 
@@ -174,7 +171,37 @@ footer button{
     border: none;
     background-color:white;
     color: black;
-    margin-top: 3rem;
+}
+
+.botones-footer{
+    display: flex;
+    gap: 15px;   
+}
+
+@media (max-width:1023px){
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+    }
+    .imagen-yo{
+        width: 400px;
+        border-radius: 30px;
+        max-width: 100%;
+        height: auto;
+        margin: 4rem;
+    }
+    .texto-sobremi{
+        display: flex;
+        flex-direction: column;
+    }
     
 }
 
