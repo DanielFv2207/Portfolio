@@ -4,16 +4,20 @@
     box-sizing: border-box;
 
 }
+h1{
+    font-size: 60px;
+}
+p{
+    color: beige;
+
+}
 body{
     font-family: "Alan Sans", sans-serif;
     color: white;
     margin: 0;
-    background: linear-gradient(#0C1B33,#3E3C67);
+    background: linear-gradient(#0C1B33,#282742);
 }
-.img-container{
-    width: 200px;
-    height: auto;
-}
+
 
 .container{
     max-width: 1400px;
@@ -21,15 +25,16 @@ body{
 }
 
 header{
-    
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     padding: 1.3rem 10%;
-    background-color: rgba(0, 0,0, .1);
+    background-color: #0C1B33;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header .logo{
@@ -38,6 +43,7 @@ header .logo{
     text-decoration: none;
     font-weight: 700;
     padding-bottom: 0.7rem;
+    
 }
 header nav{
     display: flex;
@@ -51,14 +57,130 @@ header .navbar a{
     text-decoration: none;
     font-weight: 500;
     padding-left: 0.8rem;
+    
 }   
-
 #hero{
+    padding: 6rem;
+}
+.imagen-yo{
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.img-container{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left;
+    flex-direction: row;
 }
+
+.texto-hero p{
+    font-size: 24px;
+    padding-right: 5rem;
+}
+
+.carta{
+    padding: 2em;
+    border: 1px solid rgb(75, 82, 92);
+    border-radius: 10px;
+    background: linear-gradient(#0C1B33,#282742);
+
+}
+.grid-container{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
+.carta img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: gray;
+}
+
+h2{
+    font-size: 40px;
+    
+}
+#proyectos button{  
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:#0C1B33;
+    color: beige;
+    margin-top: 1rem;
+}
+#proyectos h3{
+    padding-top: 1rem;
+}
+.contacto{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    background-color:white;
+    color: black;
+    margin-top: 3rem;
+}
+#sobremi{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+}
+#sobremi p{
+    font-size: 18px;
+    padding-right: 10rem;
+}
+
+.texto-sobremi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: row;
+}
+.imagen-idea{
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+}
+
+footer{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    padding: 2rem;
+    
+}
+
+footer button{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    background-color:white;
+    color: black;
+    margin-top: 3rem;
+    
+}
+
+
+
+
 
 
 

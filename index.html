@@ -6,6 +6,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
@@ -21,51 +22,63 @@
 
   <section id="hero">
     <div class="container">
-    <h2>Hola, Soy Daniel</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
-        elit. Dolore optio facere quibusdam vitae enim odio dol
-        r neque officiis ratione minima autem, a accusantium co
-        nsectetur quis nam. Repellat laboriosam natus molestiae?
-      </p>
-      <div class="img-container"></div>
+      <div class="img-container">
+        <div class="texto-hero">
+          <h1>Hola, Soy Daniel</h1>
+          <p>Estudiante de Ingeniería Informática, apasionado por la tecnología y el desarrollo de soluciones digitales.
+          Me interesa el aprendizaje continuo y la aplicación de mis conocimientos dentro de diferentes sistemas, 
+          con el objetivo de crecer profesionalmente y aportar valor en proyectos innovadores.
+          </p>
+        </div>
+        <img class="imagen-yo"  src="imagenes/yo.jpg" alt="">
+      </div>
     </div>
   </section>
 
-  <section id="proyectos">
-    <div class="container">
-      <h2>Proyectos</h2>
-      <div class="carta">
-        <h3> Batalla Naval</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil odit totam fugit repellat harum quo, at eos officiis illo expedita, assumenda asperiores. Ratione neque nihil ad? Ipsum, ex nihil!</p>
-        <button>Github</button>
+  <div class="container">
+    <section id="proyectos">
+      <h2><i class="fa-solid fa-laptop-code"></i> Proyectos</h2>
+      <div class="grid-container">
+        <div class="carta">
+          <img src="imagenes/batallanaval.jpg" alt="">
+          <h3> Batalla Naval</h3>
+          <p>Juego interactivo que recrea la clásica batalla naval, implementado con lógica de programación y manejo de matrices.</p>
+          <button><i class="fa-brands fa-github"></i>CODE</button>
+        </div>
+        <div class="carta">
+          <img src="imagenes/gps.png" alt="">
+          <h3> GPS</h3>
+          <p>Aplicación que simula un sistema de posicionamiento y rutas, enfocada en el uso de algoritmos de geolocalización.</p>
+          <button><i class="fa-brands fa-github"></i>Github</button>
+        </div>
+        <div class="carta">
+          <img src="imagenes/habit trakker.png" alt="">
+          <h3> Momentum</h3>
+          <p>Herramienta para registrar y dar seguimiento a hábitos diarios, con enfoque en productividad y crecimiento personal.</p>
+          <button><i class="fa-brands fa-github"></i>Github</button>
+        </div>
+        <div class="carta">
+          <img src="imagenes/portafolio.png" alt="">
+          <h3> Portafolio</h3>
+          <p>Sitio web personal para mostrar mis proyectos, habilidades y trayectoria académica en Ingeniería Informática.</p>
+          <button><i class="fa-brands fa-github"></i>Github</button>
+        </div>
+        
+        <div class="carta">
+          <img src="imagenes/biblioteca.png" alt="">
+          <h3> Biblioteca</h3>
+          <p>Sistema de gestión de préstamos y organización de libros, orientado a la práctica de bases de datos y CRUD.</p>
+          <button><i class="fa-brands fa-github"></i>Github</button>
+        </div>  
+        <div class="carta">
+          <img src="imagenes/AlertUM.png" alt="">
+          <h3> AlertUM</h3>
+          <p>Aplicación diseñada para reportar y atender emergencias, optimizando la comunicación en situaciones críticas.</p>
+          <button><i class="fa-brands fa-github"></i>Github</button>
+        </div>
       </div>
-      <div class="carta">
-        <h3> GPS</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil odit totam fugit repellat harum quo, at eos officiis illo expedita, assumenda asperiores. Ratione neque nihil ad? Ipsum, ex nihil!</p>
-        <button>Github</button>
-      </div>
-      <div class="carta">
-        <h3> Portafolio</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil odit totam fugit repellat harum quo, at eos officiis illo expedita, assumenda asperiores. Ratione neque nihil ad? Ipsum, ex nihil!</p>
-        <button>Github</button>
-      </div>
-      <div class="carta">
-        <h3> Momentum</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil odit totam fugit repellat harum quo, at eos officiis illo expedita, assumenda asperiores. Ratione neque nihil ad? Ipsum, ex nihil!</p>
-        <button>Github</button>
-      </div>
-      <div class="carta">
-        <h3> Biblioteca</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil odit totam fugit repellat harum quo, at eos officiis illo expedita, assumenda asperiores. Ratione neque nihil ad? Ipsum, ex nihil!</p>
-        <button>Github</button>
-      </div>  
-      <div class="carta">
-        <h3> Calculadora</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil odit totam fugit repellat harum quo, at eos officiis illo expedita, assumenda asperiores. Ratione neque nihil ad? Ipsum, ex nihil!</p>
-        <button>Github</button>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
   
   <section id="sobremi">
     <div class="container">
@@ -83,7 +96,7 @@
     <h2>Contacto</h2>
     <button>Gmail</button>
     <button>Linkedin</button>
-    <button>Github</button>
+    <button><i class="fa-brands fa-github"></i>Github</button>
   </section>
 </body>
 </html>
