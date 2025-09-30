@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Alan Sans", sans-serif;
+    color: white;
+    margin: 0;
+    background: linear-gradient(#0C1B33,#3E3C67);
+}
+.img-container{
+    width: 200px;
+    height: auto;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    background-color: rgba(0, 0,0, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding-bottom: 0.7rem;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+header .navbar a{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 0.8rem;
+}   
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+
+
+
